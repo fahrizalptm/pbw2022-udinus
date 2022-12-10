@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Element form - HTML 5</title>
+</head>
+<body>
+    <h1>HTML 5 - form</h1>
+    <form action="proses.php" method="post" id="form">
+        <table>
+            <tr>
+                <td>Nim</td>
+                <td><input type="number"><br></td>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text"><br></td>
+            </tr>
+            <tr>
+                <td>tgl lahir</td>
+                <td><input type="date"><br></td>
+            </tr>
+            <tr>
+                <td>program studi</td>
+                <td><select name="studi" id="studi">
+                    <option value="1">S1 infotmatika</option>
+                    <option value="2">S1 turu</option>
+                    <option value="3">S1 tidur</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>bidang minat</td>
+                <td>
+                <input type="checkbox" name="minat1" id="minat1">
+                <label for="minat1">web programing</label>
+                <input type="checkbox" name="minat2" id="minat2">
+                <label for="minat2">programer</label>
+                <input type="checkbox" name="minat3" id="minat3">
+                <label for="minat3">web developers</label>
+                </td>
+            </tr>
+            <tr>
+                <td>berkah cv</td>
+                <td><input type="file"><br></td>
+            </tr>
+        </table>
+        <input type="submit" value="submit" name="submit">
+    </form>
+</body>
+</html>

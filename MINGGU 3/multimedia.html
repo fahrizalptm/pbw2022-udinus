@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Belajar multimedia di HTML</h2>
+    <p>
+        <button onclick="playVid()" type="button">Play Video</button>
+        <button onclick="pauseVid()" type="button">Pause Video</button>
+        <button onclick="durationVid()" type="button">Duration Video</button>
+    </p>
+    <video width="420" id="myVideo">
+        <source src="mov_bbb.mp4" type="video/mp4">
+    </video>
+    </body>
+   <script>
+       var vid = document.getElementById("myVideo");
+       function durationvid(){
+           alert(vid.duration)
+       }
+
+function playVid() {
+    vid.play();
+    vid.loop = true;
+}
+
+function pauseVid() {
+    vid.pause();
+}
+
+   </script>
