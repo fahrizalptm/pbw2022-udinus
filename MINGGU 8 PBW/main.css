@@ -1,0 +1,41 @@
+* {
+    color : rgb(20, 6, 97);
+}
+
+body {
+    background-color: rgb(254, 255, 243);
+}
+
+.tag {
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : white;
+    background-color : red;
+}
+
+h2 {
+    font-size : 23px;
+}
+
+#headline {
+    color :crimson;
+    font-size : 25px;
+    font-family : JetBrains Mono;
+}
+
+h1 {
+    font-size : 38px;
+}
+
+button {
+    color : black;
+}
+
+.post {
+    color : rgb(253, 75, 75);
+}
+
+.post a {
+    color : rgb(253, 75, 75);
+    text-decoration: none;
+    font-style : italic;
+}
